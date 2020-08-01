@@ -1,20 +1,17 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/home';
 import CadastroVideo from './pages/cadastro/video';
 import CadastroCategoria from './pages/cadastro/categoria';
 
-
-
+// Desafio master blaster na descrição
 const Pagina404 = () => (<div>Página 404</div>)
 
 ReactDOM.render(
-  //<React.StrictMode>
-  //  <App />
-  //</React.StrictMode>,
-
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
@@ -23,7 +20,5 @@ ReactDOM.render(
       <Route component={Pagina404} />
     </Switch>
   </BrowserRouter>,
-
   document.getElementById('root')
 );
-
