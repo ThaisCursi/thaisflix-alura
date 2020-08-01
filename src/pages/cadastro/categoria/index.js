@@ -28,7 +28,6 @@ function CadastroCategoria() {
     );
   }
 
-  // ============
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
