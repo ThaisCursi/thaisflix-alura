@@ -1,24 +1,58 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Front End",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Foo Fighters",
+      "cor": "#ffbb29",
+      "link_extra": {
+        "text": "Foo Fighters",
+        "url": "https://www.youtube.com/channel/UCi2KNss4Yx73NG0JARSFe0A"
       }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      }
-    ]
-  }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "The Sky Is A Neighborhood",
+      "url": "https://www.youtube.com/watch?v=TRqiFPpw2fY&list=PLyjqnQsvvnpLDEXLf58J39uJTfTXjmVzx&index=6"
+    },
+    {
+      "titulo": "The Pretender",
+      "url": "https://www.youtube.com/watch?v=SBjQ9tuuTJQ&list=PLyjqnQsvvnpLDEXLf58J39uJTfTXjmVzx",
+      "categoriaId": 1,
+      "id": 2
+    },
+    {
+      "titulo": "Times Like These",
+      "url": "https://www.youtube.com/watch?v=rhzmNRtIp8k&list=PLyjqnQsvvnpLDEXLf58J39uJTfTXjmVzx&index=7",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Run",
+      "url": "https://www.youtube.com/watch?v=ifwc5xgI3QM&list=PLyjqnQsvvnpLDEXLf58J39uJTfTXjmVzx&index=9",
+      "categoriaId": 1,
+      "id": 4
+    },
+    {
+      "titulo": "Something From Nothing",
+      "url": "https://www.youtube.com/watch?v=V_YlZ1JdcVk&list=PLyjqnQsvvnpLDEXLf58J39uJTfTXjmVzx&index=11",
+      "categoriaId": 1,
+      "id": 5
+    },
+    {
+      "titulo": "Best Of You",
+      "url": "https://www.youtube.com/watch?v=h_L4Rixya64&list=PLyjqnQsvvnpLDEXLf58J39uJTfTXjmVzx&index=2",
+      "categoriaId": 1,
+      "id": 6
+    },
+    {
+      "titulo": "Everlong",
+      "url": "https://www.youtube.com/watch?v=eBG7P-K-r1Y&list=PLyjqnQsvvnpLDEXLf58J39uJTfTXjmVzx&index=3",
+      "categoriaId": 1,
+      "id": 7
+    }
+  ]
   
-
-  
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
-import Slider, { SliderItem } from './components/slider';
 import VideoCard from './components/VideoCard';
+import Slider, { SliderItem } from './components/Slider';
 
 function Carousel({
   ignoreFirstVideo,
@@ -46,4 +46,4 @@ function Carousel({
   );
 }
 
-export default Carousel; 
+export default Carousel;

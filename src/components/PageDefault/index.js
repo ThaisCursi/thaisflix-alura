@@ -25,4 +25,4 @@ function PageDefault({ children }) {
   );
 }
 
-export default PageDefault; 
+export default PageDefault;

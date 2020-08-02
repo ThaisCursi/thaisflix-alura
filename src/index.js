@@ -1,12 +1,11 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './pages/home';
-import CadastroVideo from './pages/cadastro/video';
-import CadastroCategoria from './pages/cadastro/categoria';
+import Home from './pages/Home';
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria';
 
 // Desafio master blaster na descrição
 const Pagina404 = () => (<div>Página 404</div>)

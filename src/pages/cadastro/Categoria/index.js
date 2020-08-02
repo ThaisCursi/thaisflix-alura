@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import PageDefault from '../../../components/pageDefault';
+import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
@@ -20,7 +19,7 @@ function CadastroCategoria() {
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
-      : 'https://devsoutinhoflix.herokuapp.com/categorias';
+      : 'https://thaisflix02.herokuapp.com/categorias';
     // E a ju ama variáveis
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
@@ -117,4 +116,5 @@ function CadastroCategoria() {
   );
 }
 
+// eslint-disable-next-line eol-last
 export default CadastroCategoria;
